@@ -172,13 +172,6 @@ export default function PEE10Page() {
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">Vermogenscomponenten:</span> Gescheiden van gevoelige
-                      signaalcircuits met voldoende koeling
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
-                    <span>
                       <span className="font-semibold">Stervormige aarding:</span> Om grondlussen te voorkomen
                     </span>
                   </li>

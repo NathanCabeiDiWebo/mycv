@@ -5,11 +5,9 @@ import { Badge } from "@/components/ui/badge"
 import {
   CircuitBoard,
   Car,
-  Sprout,
   Cpu,
   Zap,
   Lightbulb,
-  Microscope,
   GraduationCap,
   ChevronRight,
   Mail,
@@ -24,6 +22,7 @@ import {
 } from "lucide-react"
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
+import Image from "next/image"
 
 export default function Component() {
   const [mounted, setMounted] = useState(false)
@@ -158,30 +157,6 @@ export default function Component() {
 
         {/* Main Content - Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Education Section */}
-          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardHeader className="pb-2 border-b border-white/10">
-              <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <h3 className="text-xl font-semibold text-teal-300">Bachelor of Science in Elektrotechniek</h3>
-              <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2023 - Heden</p>
-              <ul className="space-y-2 text-white">
-                <li className="flex items-start">
-                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
-                  <span>Eerste-jaars student met focus op robotica en circuit ontwerp</span>
-                </li>
-                <li className="flex items-start">
-                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
-                  <span>Relevante vakken: Circuit Analyse, Digitale Systemen, Microcontrollers, Robotica</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
           {/* Technical Skills Section */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -242,38 +217,65 @@ export default function Component() {
             </CardContent>
           </Card>
 
-          {/* Research Section */}
+          {/* Additional Skills Card */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <Microscope className="w-6 h-6 mr-2 text-green-400" /> Onderzoek
+                <Zap className="w-6 h-6 mr-2 text-purple-400" /> Aanvullende Vaardigheden
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-4">
-              <div className="relative">
-                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-1">
-                  <div className="h-32 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
-                    <Sprout className="w-16 h-16 text-green-400/30" />
-                    <div className="absolute inset-0 bg-gradient-to-br from-transparent to-slate-900"></div>
-                  </div>
+              <div className="grid grid-cols-2 gap-2">
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Solderen</span>
                 </div>
-                <h3 className="text-xl font-semibold text-green-300 flex items-center">
-                  <Sprout className="w-5 h-5 mr-2" /> Verbeteren van Voedselproductie
-                </h3>
-                <p className="mt-2 text-white">
-                  Onderzoek naar innovatieve elektrotechnische toepassingen om de efficiëntie en duurzaamheid van
-                  voedselproductie te verbeteren.
-                </p>
-                <div className="flex flex-wrap gap-2 mt-3">
-                  <Badge variant="outline" className="bg-green-500/10 text-green-300 border-green-500/30">
-                    Automatisering
-                  </Badge>
-                  <Badge variant="outline" className="bg-green-500/10 text-green-300 border-green-500/30">
-                    Duurzaamheid
-                  </Badge>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>CAD Ontwerp</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Prototyping</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Troubleshooting</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Data Analyse</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Teamleiderschap</span>
                 </div>
               </div>
+            </CardContent>
+          </Card>
+
+          {/* Education Section - Now spans 2 columns */}
+          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group md:col-span-2">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <CardHeader className="pb-2 border-b border-white/10">
+              <CardTitle className="text-2xl font-semibold flex items-center text-white">
+                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              <h3 className="text-xl font-semibold text-teal-300">Bachelor of Science in Elektrotechniek</h3>
+              <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2023 - Heden</p>
+              <ul className="space-y-2 text-white">
+                <li className="flex items-start">
+                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
+                  <span>Eerste-jaars student met focus op robotica en circuit ontwerp</span>
+                </li>
+                <li className="flex items-start">
+                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
+                  <span>Relevante vakken: Circuit Analyse, Digitale Systemen, Microcontrollers, Robotica</span>
+                </li>
+              </ul>
             </CardContent>
           </Card>
 
@@ -290,10 +292,15 @@ export default function Component() {
             </CardHeader>
             <CardContent className="pt-4">
               <div className="relative">
-                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-1">
-                  <div className="h-32 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
-                    <CircuitBoard className="w-16 h-16 text-blue-400/30" />
-                    <div className="absolute inset-0 bg-gradient-to-br from-transparent to-slate-900"></div>
+                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-2">
+                  <div className="h-48 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
+                    <Image
+                      src="/images/pee10-schematic.png"
+                      alt="PEE10 Audio Versterker Circuit Schematic"
+                      fill
+                      className="object-contain p-2"
+                      crossOrigin="anonymous"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl font-semibold text-blue-300">Audio Versterker</h3>
@@ -332,10 +339,15 @@ export default function Component() {
             </CardHeader>
             <CardContent className="pt-4">
               <div className="relative">
-                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-1">
-                  <div className="h-32 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
-                    <Car className="w-16 h-16 text-teal-400/30" />
-                    <div className="absolute inset-0 bg-gradient-to-br from-transparent to-slate-900"></div>
+                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-2">
+                  <div className="h-48 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
+                    <Image
+                      src="/images/pee20-robot.jpeg"
+                      alt="PEE20 Autonome Robot - Voltooide robot met blauwe LED verlichting"
+                      fill
+                      className="object-contain p-2"
+                      crossOrigin="anonymous"
+                    />
                   </div>
                 </div>
                 <h3 className="text-xl font-semibold text-teal-300">Autonome Robot</h3>
@@ -356,44 +368,6 @@ export default function Component() {
                     <span className="text-sm mr-1">Meer details</span>
                     <ArrowRight className="h-4 w-4" />
                   </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Additional Skills Card */}
-          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardHeader className="pb-2 border-b border-white/10">
-              <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <Zap className="w-6 h-6 mr-2 text-purple-400" /> Aanvullende Vaardigheden
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <div className="grid grid-cols-2 gap-2">
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Solderen</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>CAD Ontwerp</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Prototyping</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Troubleshooting</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Data Analyse</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Teamleiderschap</span>
                 </div>
               </div>
             </CardContent>
