@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "PEE10 | Audio Versterker",
-  description: "Gedetailleerd verslag van het PEE10 audio versterker project",
+  description: "Gedetailleerd informatie van het PEE10 audio versterker project",
 }
 
 export default function ProjectLayout({

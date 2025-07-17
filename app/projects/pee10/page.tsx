@@ -117,19 +117,19 @@ export default function PEE10Page() {
                 <ul className="space-y-2 text-white">
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-purple-400 mt-1 mr-2 flex-shrink-0" />
-                    <span className="font-semibold">Opamps:</span>
+                    <span className="font-semibold">Opamps</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-purple-400 mt-1 mr-2 flex-shrink-0" />
-                    <span className="font-semibold">Weerstanden:</span>
+                    <span className="font-semibold">Weerstanden</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-purple-400 mt-1 mr-2 flex-shrink-0" />
-                    <span className="font-semibold">Condensatoren:</span>
+                    <span className="font-semibold">Condensatoren</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-purple-400 mt-1 mr-2 flex-shrink-0" />
-                    <span className="font-semibold">Spanningsregulatoren:</span>
+                    <span className="font-semibold">Spanningsregulatoren</span>
                   </li>
                 </ul>
               </div>
@@ -194,35 +194,25 @@ export default function PEE10Page() {
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">PCB Fabricage:</span> Professioneel geproduceerde dubbelzijdige
-                      PCB's met soldeermasker
+                      <span className="font-semibold">PCB Fabricage:</span> PCBs ontwerpen en zelf maken.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">Componentenplaatsing:</span> Beginnend met passieve componenten,
-                      gevolgd door halfgeleiders
+                      <span className="font-semibold">Integratie:</span> Product worden gesplits in verschillende deelsystemen en met elkaar geïntegreerd.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">Koellichamen:</span> Montage van koellichamen op
-                      vermogenstransistors met thermische pasta
+                      <span className="font-semibold">Behuizing:</span> 3D-geprinte behuizing gemaakt van PLA plastic.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">Behuizing:</span> Aluminium behuizing met voldoende ventilatie
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
-                    <span>
-                      <span className="font-semibold">Bekabeling:</span> Afgeschermde kabels voor ingangssignalen, zware
-                      gauge voor luidsprekersuitgangen
+                      <span className="font-semibold">Bekabeling/verbindingen:</span> Verbindingen worden gedaan met kabels.
                     </span>
                   </li>
                 </ul>
@@ -260,13 +250,6 @@ export default function PEE10Page() {
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
                     <span>
-                      <span className="font-semibold">Thermische Stabiliteit:</span> Langdurige tests om oververhitting
-                      te voorkomen
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <ChevronRight className="w-4 h-4 text-green-400 mt-1 mr-2 flex-shrink-0" />
-                    <span>
                       <span className="font-semibold">Luistertests:</span> Subjectieve evaluatie met verschillende
                       muziekgenres en luidsprekers
                     </span>
@@ -297,7 +280,7 @@ export default function PEE10Page() {
               <div>
                 <h3 className="text-xl font-semibold text-amber-300 mb-3">Leerpunten</h3>
                 <p className="text-white mb-4">
-                  Dit project heeft waardevolle inzichten opgeleverd in verschillende aspecten van analoge elektronica:
+                  Dit project heeft waardevolle inzichten opgeleverd in verschillende aspecten van analoge elektronica en de werkvorm/houding tijdens een groepsproject:
                 </p>
                 <ul className="space-y-2 text-white">
                   <li className="flex items-start">
@@ -309,7 +292,7 @@ export default function PEE10Page() {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-amber-400 mt-1 mr-2 flex-shrink-0" />
-                    <span>Praktische ervaring met thermisch management van de eindverserker</span>
+                    <span>Praktische ervaring met de vermogen-levering van de eindverserker</span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-amber-400 mt-1 mr-2 flex-shrink-0" />
