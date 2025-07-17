@@ -157,6 +157,157 @@ export default function Component() {
 
         {/* Main Content - Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Education Section - Now spans 2 columns */}
+          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group md:col-span-2">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <CardHeader className="pb-2 border-b border-white/10">
+              <CardTitle className="text-2xl font-semibold flex items-center text-white">
+                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              {/* Elektrotechniek Section */}
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold text-teal-300">Bachelor of Science in Elektrotechniek</h3>
+                <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2023 - Heden</p>
+                <ul className="space-y-2 text-white">
+                  <li className="flex items-start">
+                    <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
+                    <span>Eerste-jaars student met focus op robotica en circuit ontwerp</span>
+                  </li>
+                  <li className="flex items-start">
+                    <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
+                    <span>Relevante vakken: Elektronica, Digitale Systemen, Embedded systems, Energybeheer</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Mechatronica Section */}
+              <div>
+                <h3 className="text-xl font-semibold text-teal-300">Mechatronica (gestopt)</h3>
+                <p className="text-blue-200 mb-3">
+                  Hogeschool Rotterdam | 2021 - 2022
+                </p>{" "}
+                {/* Placeholder for years */}
+                <ul className="space-y-2 text-white">
+                  <li className="flex items-start">
+                    <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
+                    <span>Relevante vakken: Statica, Sterkteleer, Programmeren, Pneumatiek, CAD Ontwerp</span>
+                  </li>
+                </ul>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Circuit Design Project */}
+          <Card
+            className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group cursor-pointer hover:bg-white/15 transition-colors"
+            onClick={() => router.push("/projects/pee10")}
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <CardHeader className="pb-2 border-b border-white/10">
+              <CardTitle className="text-2xl font-semibold flex items-center text-white">
+                <CircuitBoard className="w-6 h-6 mr-2 text-blue-400" /> Project PEE10
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              <div className="relative">
+                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-2">
+                  <div className="h-48 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
+                    <Image
+                      src="/images/pee10-schematic.png"
+                      alt="PEE10 Audio Versterker Circuit Schematic"
+                      fill
+                      className="object-contain p-2"
+                      crossOrigin="anonymous"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-blue-300">Audio Versterker</h3>
+                <p className="mt-2 text-white">
+                  Ontwerp en bouw van een analoge audio versterker met hoogwaardige componenten voor optimale
+                  geluidskwaliteit.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  <Badge variant="outline" className="bg-blue-500/10 text-blue-300 border-blue-500/30">
+                    PCB Ontwerp
+                  </Badge>
+                  <Badge variant="outline" className="bg-blue-500/10 text-blue-300 border-blue-500/30">
+                    Analoge Elektronica
+                  </Badge>
+                </div>
+                <div className="flex justify-end mt-2">
+                  <div className="text-blue-400 group-hover:text-blue-300 transition-colors flex items-center">
+                    <span className="text-sm mr-1">Meer details</span>
+                    <ArrowRight className="h-4 w-4" />
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Additional Skills Card */}
+          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <CardHeader className="pb-2 border-b border-white/10">
+              <CardTitle className="text-2xl font-semibold flex items-center text-white">
+                <Zap className="w-6 h-6 mr-2 text-purple-400" /> Aanvullende Vaardigheden
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="pt-4">
+              <div className="grid grid-cols-2 gap-2">
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Solderen</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>CAD Ontwerp</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Prototyping</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Troubleshooting</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Data Analyse</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Teamleiderschap</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Simuleren</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Ontwerpen</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Zelfstandig werken</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Samenwerking</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Wiskunde kennis</span>
+                </div>
+                <div className="flex items-center text-white">
+                  <ChevronRight className="w-4 h-4 text-purple-400" />
+                  <span>Creatief</span>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Technical Skills Section */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -211,115 +362,6 @@ export default function Component() {
                         <div className="h-full bg-gradient-to-r from-teal-400 to-blue-500 w-[65%]"></div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Additional Skills Card */}
-          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardHeader className="pb-2 border-b border-white/10">
-              <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <Zap className="w-6 h-6 mr-2 text-purple-400" /> Aanvullende Vaardigheden
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <div className="grid grid-cols-2 gap-2">
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Solderen</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>CAD Ontwerp</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Prototyping</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Troubleshooting</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Data Analyse</span>
-                </div>
-                <div className="flex items-center text-white">
-                  <ChevronRight className="w-4 h-4 text-purple-400" />
-                  <span>Teamleiderschap</span>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Education Section - Now spans 2 columns */}
-          <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group md:col-span-2">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardHeader className="pb-2 border-b border-white/10">
-              <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <h3 className="text-xl font-semibold text-teal-300">Bachelor of Science in Elektrotechniek</h3>
-              <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2023 - Heden</p>
-              <ul className="space-y-2 text-white">
-                <li className="flex items-start">
-                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
-                  <span>Eerste-jaars student met focus op robotica en circuit ontwerp</span>
-                </li>
-                <li className="flex items-start">
-                  <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
-                  <span>Relevante vakken: Circuit Analyse, Digitale Systemen, Microcontrollers, Robotica</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
-          {/* Circuit Design Project */}
-          <Card
-            className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group cursor-pointer hover:bg-white/15 transition-colors"
-            onClick={() => router.push("/projects/pee10")}
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <CardHeader className="pb-2 border-b border-white/10">
-              <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <CircuitBoard className="w-6 h-6 mr-2 text-blue-400" /> Project PEE10
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="pt-4">
-              <div className="relative">
-                <div className="rounded-lg overflow-hidden mb-3 bg-gradient-to-r from-slate-700 to-slate-800 p-2">
-                  <div className="h-48 bg-slate-800 rounded flex items-center justify-center relative overflow-hidden">
-                    <Image
-                      src="/images/pee10-schematic.png"
-                      alt="PEE10 Audio Versterker Circuit Schematic"
-                      fill
-                      className="object-contain p-2"
-                      crossOrigin="anonymous"
-                    />
-                  </div>
-                </div>
-                <h3 className="text-xl font-semibold text-blue-300">Audio Versterker</h3>
-                <p className="mt-2 text-white">
-                  Ontwerp en bouw van een analoge audio versterker met hoogwaardige componenten voor optimale
-                  geluidskwaliteit.
-                </p>
-                <div className="flex flex-wrap gap-2 mt-3">
-                  <Badge variant="outline" className="bg-blue-500/10 text-blue-300 border-blue-500/30">
-                    PCB Ontwerp
-                  </Badge>
-                  <Badge variant="outline" className="bg-blue-500/10 text-blue-300 border-blue-500/30">
-                    Analoge Elektronica
-                  </Badge>
-                </div>
-                <div className="flex justify-end mt-2">
-                  <div className="text-blue-400 group-hover:text-blue-300 transition-colors flex items-center">
-                    <span className="text-sm mr-1">Meer details</span>
-                    <ArrowRight className="h-4 w-4" />
                   </div>
                 </div>
               </div>
