@@ -64,12 +64,13 @@ export default function Component() {
             {/* Profile Picture */}
             <div className="flex-shrink-0">
               <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-xl overflow-hidden border-2 border-teal-400/50 bg-slate-800">
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center">
-                  {/* Placeholder for profile picture */}
-                  <div className="w-full h-full bg-slate-800 flex items-center justify-center">
-                    <Cpu className="w-16 h-16 text-teal-400/30" />
-                  </div>
-                </div>
+                <Image
+                  src="/images/profile-picture.png"
+                  alt="Profile Picture"
+                  fill
+                  className="object-cover"
+                  crossOrigin="anonymous"
+                />
                 {/* Circuit pattern overlay */}
                 <div className="absolute inset-0 opacity-20 mix-blend-overlay">
                   <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -185,10 +186,7 @@ export default function Component() {
               {/* Mechatronica Section */}
               <div>
                 <h3 className="text-xl font-semibold text-teal-300">Mechatronica (gestopt)</h3>
-                <p className="text-blue-200 mb-3">
-                  Hogeschool Rotterdam | 2021 - 2022
-                </p>{" "}
-                {/* Placeholder for years */}
+                <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2021 - 2022</p> {/* Placeholder for years */}
                 <ul className="space-y-2 text-white">
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
