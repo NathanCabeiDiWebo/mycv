@@ -63,7 +63,7 @@ export default function Component() {
           <div className="lg:col-span-2 flex flex-col md:flex-row gap-6">
             {/* Profile Picture */}
             <div className="flex-shrink-0">
-              <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-xl overflow-hidden border-2 border-teal-400/50 bg-slate-800">
+              <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-xl overflow-hidden border-2 border-teal-400/50 bg-slate-800">
                 <Image
                   src="/images/profile-picture.png"
                   alt="Profile Picture"
@@ -97,9 +97,12 @@ export default function Component() {
                 <p className="text-xl text-blue-300">Hogeschool Rotterdam | Eerste Jaar</p>
               </div>
               <p className="text-lg border-l-4 border-teal-400 pl-4 py-2 bg-white/5 rounded-r-md text-white">
-                Gepassioneerde elektrotechniek student met praktijkervaring in robotica en circuit ontwerp. Momenteel
-                bezig met onderzoek naar innovatieve benaderingen om voedselproductie te verbeteren door middel van
-                technologie.
+                Ik ben een student elektrotechniek met een brede interesse in industriële elektronica en automatisering.
+                In mijn opleiding heb ik kennis en ervaring opgedaan met elektrische systemen, besturingstechniek en
+                automatiseringsprocessen. In dit portfolio laat ik verschillende schoolprojecten, opdrachten en
+                praktische toepassingen zien die mijn groei en ontwikkeling binnen dit vakgebied weerspiegelen. Mijn
+                interesse ligt vooral in het werken met industriële systemen en het bedenken van technische oplossingen
+                voor realistische uitdagingen.
               </p>
             </div>
           </div>
@@ -163,7 +166,7 @@ export default function Component() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
-                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding
+                <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding/ervaring
               </CardTitle>
             </CardHeader>
             <CardContent className="pt-4">
@@ -178,7 +181,7 @@ export default function Component() {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
-                    <span>Relevante vakken: Elektronica, Digitale Systemen, Embedded systems, Energybeheer</span>
+                    <span>Relevante vakken: Elektronica, Digitale Systemen, Embedded systems, Energiebeheer</span>
                   </li>
                 </ul>
               </div>
