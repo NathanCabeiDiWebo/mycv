@@ -98,11 +98,9 @@ export default function Component() {
               </div>
               <p className="text-lg border-l-4 border-teal-400 pl-4 py-2 bg-white/5 rounded-r-md text-white">
                 Ik ben een student elektrotechniek met een brede interesse in industriële elektronica en automatisering.
-                In mijn opleiding heb ik kennis en ervaring opgedaan met elektrische systemen, besturingstechniek en
-                automatiseringsprocessen. In dit portfolio laat ik verschillende schoolprojecten, opdrachten en
-                praktische toepassingen zien die mijn groei en ontwikkeling binnen dit vakgebied weerspiegelen. Mijn
-                interesse ligt vooral in het werken met industriële systemen en het bedenken van technische oplossingen
-                voor realistische uitdagingen.
+                In dit portfolio laat ik verschillende schoolprojecten, opdrachten en praktische toepassingen zien die
+                mijn groei en ontwikkeling binnen dit vakgebied weerspiegelen. Mijn interesse ligt vooral in het werken
+                met industriële systemen en het bedenken van technische oplossingen voor realistische uitdagingen.
               </p>
             </div>
           </div>
