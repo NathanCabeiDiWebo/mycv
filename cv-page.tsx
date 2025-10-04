@@ -65,7 +65,7 @@ export default function Component() {
             <div className="flex-shrink-0">
               <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-xl overflow-hidden border-2 border-teal-400/50 bg-slate-800">
                 <Image
-                  src="/images/profile-picture.png"
+                  src="/images/new-profile-picture.jpeg"
                   alt="Profile Picture"
                   fill
                   className="object-cover"
@@ -89,7 +89,7 @@ export default function Component() {
               <div className="flex items-center mb-4">
                 <Cpu className="w-10 h-10 text-teal-400 mr-4" />
                 <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
-                  Elektrotechniek Student
+                  Student Elektrotechniek
                 </h1>
               </div>
               <div className="flex items-center mb-6">
@@ -187,7 +187,7 @@ export default function Component() {
               {/* Mechatronica Section */}
               <div>
                 <h3 className="text-xl font-semibold text-teal-300">Mechatronica (gestopt)</h3>
-                <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2021 - 2022</p> {/* Placeholder for years */}
+                <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2021 - 2022</p>
                 <ul className="space-y-2 text-white">
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
