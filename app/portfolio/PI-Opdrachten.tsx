@@ -181,130 +181,19 @@ export default function PortfolioPage() {
           </CardHeader>
           <CardContent className="pt-6">
             <div className="space-y-6">
-              <div className="flex flex-col md:flex-row gap-4 items-start md:items-center mb-4">
-                <div className="flex items-center">
-                  <Building className="w-5 h-5 text-purple-400 mr-2" />
-                  <span>TechnoVision B.V.</span>
-                </div>
-                <div className="flex items-center">
-                  <Briefcase className="w-5 h-5 text-blue-400 mr-2" />
-                  <span>Elektronica & Automatisering</span>
-                </div>
-                <div className="flex items-center">
-                  <Globe className="w-5 h-5 text-green-400 mr-2" />
-                  <span>Rotterdam, Nederland</span>
-                </div>
-              </div>
-
               <div>
-                <h3 className="text-xl font-semibold text-purple-300 mb-3">Bedrijfsprofiel</h3>
                 <p className="text-white mb-4">
-                  TechnoVision B.V. is een innovatief technologiebedrijf gespecialiseerd in het ontwikkelen van
-                  geavanceerde elektronische systemen voor industriële automatisering en smart agriculture. Het bedrijf
-                  is opgericht in 2010 en heeft sindsdien een sterke reputatie opgebouwd in het leveren van hoogwaardige
-                  oplossingen voor complexe technische uitdagingen.
+                  Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
                 </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-purple-300 mb-3">Kernactiviteiten</h3>
-                <div className="space-y-4">
-                  <div className="bg-white/5 p-4 rounded-lg">
-                    <h4 className="text-lg font-medium text-purple-200 flex items-center">
-                      <CheckSquare className="w-5 h-5 mr-2 text-blue-400" /> Smart Farming Solutions
-                    </h4>
-                    <p className="mt-2 text-white">
-                      Ontwikkeling van geïntegreerde systemen voor precisielandbouw, waaronder sensortechnologie voor
-                      bodemmonitoring, automatische irrigatiesystemen en klimaatbeheersing voor kassen.
-                    </p>
-                  </div>
-
-                  <div className="bg-white/5 p-4 rounded-lg">
-                    <h4 className="text-lg font-medium text-purple-200 flex items-center">
-                      <CheckSquare className="w-5 h-5 mr-2 text-blue-400" /> Industrial IoT
-                    </h4>
-                    <p className="mt-2 text-white">
-                      Implementatie van IoT-oplossingen voor industriële toepassingen, met focus op real-time
-                      monitoring, predictief onderhoud en procesoptimalisatie.
-                    </p>
-                  </div>
-
-                  <div className="bg-white/5 p-4 rounded-lg">
-                    <h4 className="text-lg font-medium text-purple-200 flex items-center">
-                      <CheckSquare className="w-5 h-5 mr-2 text-blue-400" /> Custom Electronics Design
-                    </h4>
-                    <p className="mt-2 text-white">
-                      Ontwerp en productie van op maat gemaakte elektronische systemen, PCB's en embedded software voor
-                      specifieke klantbehoeften.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-purple-300 mb-3">Innovatieve Projecten</h3>
-                <div className="space-y-4">
-                  <div className="bg-white/5 p-4 rounded-lg">
-                    <h4 className="text-lg font-medium text-purple-200 flex items-center">
-                      <Award className="w-5 h-5 mr-2 text-yellow-400" /> AgroSense Platform
-                    </h4>
-                    <p className="mt-2 text-white">
-                      Een geïntegreerd platform voor precisielandbouw dat boeren helpt bij het optimaliseren van
-                      gewasopbrengsten door middel van geavanceerde sensortechnologie en data-analyse.
-                    </p>
-                  </div>
-
-                  <div className="bg-white/5 p-4 rounded-lg">
-                    <h4 className="text-lg font-medium text-purple-200 flex items-center">
-                      <Award className="w-5 h-5 mr-2 text-yellow-400" /> EnergyOptimizer
-                    </h4>
-                    <p className="mt-2 text-white">
-                      Een intelligent energiebeheersysteem dat het energieverbruik in industriële omgevingen
-                      optimaliseert, resulterend in aanzienlijke kostenbesparingen en verminderde CO2-uitstoot.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-purple-300 mb-3">Reflectie op Bedrijfsbezoek</h3>
-                <p className="text-white mb-4">
-                  Het bezoek aan TechnoVision B.V. was bijzonder inspirerend en informatief. De mogelijkheid om direct
-                  met ingenieurs en projectmanagers te spreken gaf me waardevolle inzichten in hoe theoretische kennis
-                  uit mijn studie wordt toegepast in praktische, commerciële oplossingen.
-                </p>
-                <p className="text-white">
-                  Vooral de focus van het bedrijf op duurzame technologieën en smart farming sluit perfect aan bij mijn
-                  eigen interesses en onderzoeksgebied. De presentatie heeft mijn enthousiasme voor het werken in deze
-                  sector verder versterkt en me concrete ideeën gegeven voor mogelijke stageprojecten in de toekomst.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-purple-300 mb-3">Leerpunten voor mijn Studie</h3>
-                <div className="space-y-2">
-                  <div className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-green-400 mr-2 mt-0.5" />
-                    <p className="text-white">
-                      Het belang van multidisciplinaire kennis: naast elektrotechniek is ook kennis van software,
-                      data-analyse en domeinspecifieke kennis (zoals landbouw) essentieel.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-green-400 mr-2 mt-0.5" />
-                    <p className="text-white">
-                      De waarde van praktijkervaring: het werken aan concrete projecten tijdens mijn studie zal me beter
-                      voorbereiden op de arbeidsmarkt.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <CheckSquare className="w-5 h-5 text-green-400 mr-2 mt-0.5" />
-                    <p className="text-white">
-                      Focus op duurzaamheid: bedrijven zoals TechnoVision laten zien dat er een groeiende markt is voor
-                      technologische oplossingen die bijdragen aan duurzaamheid.
-                    </p>
-                  </div>
-                </div>
+                <a
+                  href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors"
+                >
+                  <Globe className="w-5 h-5" />
+                  Bedrijfspresentatie ABB Groep - Google Slides
+                </a>
               </div>
             </div>
           </CardContent>
