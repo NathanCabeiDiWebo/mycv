@@ -187,7 +187,7 @@ export default function Component() {
               {/* Mechatronica Section */}
               <div>
                 <h3 className="text-xl font-semibold text-teal-300">Mechatronica (gestopt)</h3>
-                <p className="text-blue-200 mb-3">Hogeschool Rotterdam | 2021 - 2022</p>
+                <p className="text-blue-200 mb-3">Haagse Hogeschool | 2021 - 2022</p>
                 <ul className="space-y-2 text-white">
                   <li className="flex items-start">
                     <ChevronRight className="w-4 h-4 text-teal-400 mt-1 mr-2 flex-shrink-0" />
