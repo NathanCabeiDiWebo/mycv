@@ -186,13 +186,13 @@ export default function PortfolioPage() {
                   Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
                 </p>
                 <a
-                  href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
+                  href="https://drive.google.com/file/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors"
                 >
                   <Globe className="w-5 h-5" />
-                  Bedrijfspresentatie ABB Groep - Google Slides
+                  Bedrijfspresentatie ABB Groep
                 </a>
               </div>
             </div>
