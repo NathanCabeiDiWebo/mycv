@@ -120,6 +120,33 @@ export default function PortfolioPage() {
           </CardContent>
         </Card>
 
+        {/* Bedrijfspresentatie Section */}
+        <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
+          <CardHeader className="pb-2 border-b border-white/10">
+            <CardTitle className="text-2xl font-semibold flex items-center text-white">
+              <Building className="w-6 h-6 mr-2 text-purple-400" /> Bedrijfspresentatie
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="pt-6">
+            <div className="space-y-6">
+              <div>
+                <p className="text-white mb-4">
+                  Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
+                </p>
+                <a
+                  href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors break-all"
+                >
+                  {'https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true'}
+                </a>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+
         {/* Bezoek Jaarbeurs WOTS 2024 Section */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
@@ -166,34 +193,6 @@ export default function PortfolioPage() {
                   Uit bezoek heb ik veel geleerd. Ik zag hoe verschillende systemen met elkaar kunnen communiceren en hoe data wordt verwerkt tot het uitvoeren van diverse taken.. Het leukst waren de demonstaties, vooral de robots. Het is echt interessant hoe een idee wordt gerealiseerd tot een werkend product die een verandering maakt in het echte wereld.
                   Om dit verslag te samenvatten was dit bezoek echt interessant. Verschillende bedrijven presenteerden innovatieve technologieën zoals IoT-oplossingen en slimme sensoren. Het bezoek gaf mij nieuwe inzichten en sloot goed aan bij mijn studie, waardoor het een leerzame en inspirerende ervaring was.
                 </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Bedrijfspresentatie Section */}
-        <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
-          <CardHeader className="pb-2 border-b border-white/10">
-            <CardTitle className="text-2xl font-semibold flex items-center text-white">
-              <Building className="w-6 h-6 mr-2 text-purple-400" /> Bedrijfspresentatie
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="pt-6">
-            <div className="space-y-6">
-              <div>
-                <p className="text-white mb-4">
-                  Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
-                </p>
-                <a
-                  href="https://drive.google.com/file/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors"
-                >
-                  <Globe className="w-5 h-5" />
-                  Bedrijfspresentatie ABB Groep
-                </a>
               </div>
             </div>
           </CardContent>

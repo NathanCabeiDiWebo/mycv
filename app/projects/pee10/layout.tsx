@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "PEE10 | Audio Versterker",
+  title: "PI-Portfolio",
   description: "Gedetailleerd informatie van het PEE10 audio versterker project",
 }
 

@@ -3,10 +3,10 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "PI-Portfolio",
-  description: "De competenties van een student Elektrotechnicus",
+  description: "Portfolio PI Les Jaar 1",
 }
 
-export default function CompetentiesLayout({
+export default function PortfolioLayout({
   children,
 }: {
   children: React.ReactNode
