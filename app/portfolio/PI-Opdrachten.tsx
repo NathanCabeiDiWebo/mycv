@@ -138,10 +138,9 @@ export default function PortfolioPage() {
                   href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors"
+                  className="text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors break-all"
                 >
-                  <Globe className="w-5 h-5" />
-                  Bedrijfspresentatie ABB Groep
+                  {'https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true'}
                 </a>
               </div>
             </div>
