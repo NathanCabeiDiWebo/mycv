@@ -134,14 +134,19 @@ export default function PortfolioPage() {
                 <p className="text-white mb-4">
                   Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
                 </p>
-                <a
-                  href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors break-all"
-                >
+                <p className="text-purple-300 break-all mb-4">
                   {'https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true'}
-                </a>
+                </p>
+                <div className="w-full aspect-video rounded-lg overflow-hidden border border-white/10">
+                  <iframe
+                    src="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/embed?start=false&loop=false&delayms=3000"
+                    width="100%"
+                    height="100%"
+                    allowFullScreen
+                    title="Bedrijfspresentatie ABB Groep"
+                    className="border-0"
+                  />
+                </div>
               </div>
             </div>
           </CardContent>
