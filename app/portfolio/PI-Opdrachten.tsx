@@ -134,14 +134,19 @@ export default function PortfolioPage() {
                 <p className="text-white mb-4">
                   Een van de opdrachten van PI is dat je een presentatie moet geven over een bedrijf waar je stage wil lopen of werken. Het bedrijf die ik heb gekozen is ABB Groep. Hier is een link om de presentatie te downloaden.
                 </p>
-                <a
-                  href="https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-300 hover:text-purple-100 underline underline-offset-4 transition-colors break-all"
-                >
+                <p className="text-purple-300 break-all mb-4">
                   {'https://docs.google.com/presentation/d/1jSkC8z6aRtj0nnpU_WEzHFq_cekRBYYq/edit?usp=sharing&ouid=102089752667278276928&rtpof=true&sd=true'}
-                </a>
+                </p>
+                <div className="w-full rounded-lg overflow-hidden border border-white/10">
+                  <iframe
+                    src="https://hrnl-my.sharepoint.com/personal/1070608_hr_nl/_layouts/15/Doc.aspx?sourcedoc={832588d0-467c-4759-a333-0a6c792eb873}&amp;action=embedview&amp;wdAr=1.7777777777777777"
+                    width="100%"
+                    height="288px"
+                    frameBorder="0"
+                    title="Bedrijfspresentatie ABB Groep"
+                    className="border-0 min-h-[288px] md:min-h-[400px] lg:min-h-[500px]"
+                  />
+                </div>
               </div>
             </div>
           </CardContent>
