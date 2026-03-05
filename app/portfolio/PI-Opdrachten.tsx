@@ -66,7 +66,7 @@ export default function PortfolioPage() {
 
         {/* Onderbouwing Keuzevakken Section */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <FileText className="w-6 h-6 mr-2 text-amber-400" /> Onderbouwing Keuzevakken
@@ -122,7 +122,7 @@ export default function PortfolioPage() {
 
         {/* Bedrijfspresentatie Section */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Building className="w-6 h-6 mr-2 text-purple-400" /> Bedrijfspresentatie
@@ -154,7 +154,7 @@ export default function PortfolioPage() {
 
         {/* Bezoek Jaarbeurs WOTS 2024 Section */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Calendar className="w-6 h-6 mr-2 text-blue-400" /> Bezoek Jaarbeurs WOTS 2024

@@ -63,7 +63,7 @@ export default function CompetentiesPage() {
 
         {/* General Introduction */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <GraduationCap className="w-6 h-6 mr-2 text-purple-400" /> Inleiding
@@ -93,7 +93,7 @@ export default function CompetentiesPage() {
         <div className="space-y-6">
           {/* Analyseren */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <BookOpen className="w-6 h-6 mr-2 text-blue-400" /> Analyseren
@@ -138,7 +138,7 @@ export default function CompetentiesPage() {
 
           {/* Ontwerpen */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <CircuitBoard className="w-6 h-6 mr-2 text-green-400" /> Ontwerpen
@@ -179,7 +179,7 @@ export default function CompetentiesPage() {
 
           {/* Realiseren */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Hammer className="w-6 h-6 mr-2 text-amber-400" /> Realiseren
@@ -217,7 +217,7 @@ export default function CompetentiesPage() {
 
           {/* Beheren */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Settings className="w-6 h-6 mr-2 text-blue-400" /> Beheren
@@ -255,7 +255,7 @@ export default function CompetentiesPage() {
 
           {/* Managen */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Zap className="w-6 h-6 mr-2 text-purple-400" /> Managen
@@ -293,7 +293,7 @@ export default function CompetentiesPage() {
 
           {/* Adviseren */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <HeartHandshake className="w-6 h-6 mr-2 text-green-400" /> Adviseren
@@ -331,7 +331,7 @@ export default function CompetentiesPage() {
 
           {/* Onderzoeken */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Search className="w-6 h-6 mr-2 text-amber-400" /> Onderzoeken
@@ -369,7 +369,7 @@ export default function CompetentiesPage() {
 
           {/* Professionaliseren */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Professionaliseren

@@ -107,7 +107,7 @@ export default function Component() {
 
           {/* Contact Information Card */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-teal-500/20 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-teal-500/20 rounded-xl pointer-events-none"></div>
             <Card className="h-full bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl">
               <CardHeader className="pb-2">
                 <CardTitle className="text-xl font-semibold flex items-center text-white">
@@ -161,7 +161,7 @@ export default function Component() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Education Section - Now spans 2 columns */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group md:col-span-2">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <GraduationCap className="w-6 h-6 mr-2 text-blue-400" /> Opleiding/ervaring
@@ -203,7 +203,7 @@ export default function Component() {
             className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group cursor-pointer hover:bg-white/15 transition-colors"
             onClick={() => router.push("/projects/pee10")}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <CircuitBoard className="w-6 h-6 mr-2 text-blue-400" /> Project PEE10
@@ -247,7 +247,7 @@ export default function Component() {
 
           {/* Additional Skills Card */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Zap className="w-6 h-6 mr-2 text-purple-400" /> Aanvullende Vaardigheden
@@ -309,7 +309,7 @@ export default function Component() {
 
           {/* Technical Skills Section */}
           <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Lightbulb className="w-6 h-6 mr-2 text-yellow-400" /> Technische Vaardigheden
@@ -372,7 +372,7 @@ export default function Component() {
             className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group cursor-pointer hover:bg-white/15 transition-colors"
             onClick={() => router.push("/projects/pee20")}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <Car className="w-6 h-6 mr-2 text-teal-400" /> Project PEE20
@@ -419,7 +419,7 @@ export default function Component() {
             className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group lg:col-span-3 cursor-pointer hover:bg-white/15 transition-colors"
             onClick={() => router.push("/portfolio")}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <FileText className="w-6 h-6 mr-2 text-amber-400" /> Portfolio PI Les Jaar 1
@@ -483,7 +483,7 @@ export default function Component() {
             className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative group lg:col-span-3 cursor-pointer hover:bg-white/15 transition-colors"
             onClick={() => router.push("/competenties")}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
             <CardHeader className="pb-2 border-b border-white/10">
               <CardTitle className="text-2xl font-semibold flex items-center text-white">
                 <GraduationCapIcon className="w-6 h-6 mr-2 text-purple-400" /> De competenties van een student
