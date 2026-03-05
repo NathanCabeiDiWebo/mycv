@@ -139,12 +139,13 @@ export default function PortfolioPage() {
                 </p>
                 <div className="w-full rounded-lg overflow-hidden border border-white/10">
                   <iframe
-                    src="https://hrnl-my.sharepoint.com/personal/1070608_hr_nl/_layouts/15/Doc.aspx?sourcedoc={832588d0-467c-4759-a333-0a6c792eb873}&amp;action=embedview&amp;wdAr=1.7777777777777777"
-                    width="100%"
-                    height="288px"
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vQqW2EvDXF6mG9tqmPttro36I-8YSMPyqjtVB9FFwpxUT-YJgUBAHLNhDhMyii5W0-J8mld9fUU16lo/pubembed?start=false&loop=false&delayms=3000"
                     frameBorder="0"
+                    width="100%"
+                    height="749"
+                    allowFullScreen
                     title="Bedrijfspresentatie ABB Groep"
-                    className="border-0 min-h-[288px] md:min-h-[400px] lg:min-h-[500px]"
+                    className="border-0 min-h-[288px] md:min-h-[500px] lg:min-h-[749px]"
                   />
                 </div>
               </div>
