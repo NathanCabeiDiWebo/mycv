@@ -64,7 +64,7 @@ export default function RobotCarPage() {
 
         {/* Project Overview */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Lightbulb className="w-6 h-6 mr-2 text-teal-400" /> Project Overzicht
@@ -106,7 +106,7 @@ export default function RobotCarPage() {
 
         {/* Hardware Components */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Cpu className="w-6 h-6 mr-2 text-blue-400" /> Hardware Componenten
@@ -215,7 +215,7 @@ export default function RobotCarPage() {
 
         {/* Software Implementation */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Code className="w-6 h-6 mr-2 text-green-400" /> Software Implementatie
@@ -299,7 +299,7 @@ export default function RobotCarPage() {
 
         {/* Challenges and Solutions */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative mb-8">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Wrench className="w-6 h-6 mr-2 text-purple-400" /> Uitdagingen en Oplossingen
@@ -341,7 +341,7 @@ export default function RobotCarPage() {
 
         {/* Results and Future Improvements */}
         <Card className="bg-white/10 border-0 backdrop-blur-sm overflow-hidden rounded-xl relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-transparent pointer-events-none"></div>
           <CardHeader className="pb-2 border-b border-white/10">
             <CardTitle className="text-2xl font-semibold flex items-center text-white">
               <Lightbulb className="w-6 h-6 mr-2 text-amber-400" /> Resultaten en Toekomstige Verbeteringen
