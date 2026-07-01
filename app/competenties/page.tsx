@@ -229,6 +229,11 @@ export default function CompetentiesPage() {
                 beheren en te onderhouden. Een elektrotechnicus moet in staat zijn om de prestaties van systemen te
                 monitoren, problemen op te lossen en verbeteringen door te voeren.
               </p>
+              <p className="text-white mb-4">
+                Een belangrijk onderdeel van beheren is het bijhouden van heldere documentatie. Door onderhoudslogboeken,
+                configuraties en storingsrapporten nauwkeurig te documenteren, blijft een systeem beheersbaar en kunnen
+                toekomstige problemen sneller worden opgelost.
+              </p>
               <div className="bg-white/5 p-4 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-300 mb-3">Kernvaardigheden</h3>
                 <ul className="space-y-2 text-white">
